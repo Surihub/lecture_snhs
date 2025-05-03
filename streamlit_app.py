@@ -12,6 +12,7 @@ st.set_page_config(
 
 # 제목과 설명
 st.title("나를 소개합니다")  # 페이지 메인 제목
+st.link_button("notion", url="https://surish.notion.site/LLM-1deeef51495c80f0a775d8b0b7e6ef6e?pvs=4")
 st.markdown("Streamlit을 활용한 **LLM 웹앱 실습**의 첫걸음입니다.")  # 간단한 소개 문구
 
 # 사용자 자기소개 입력창

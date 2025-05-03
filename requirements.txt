@@ -1,1 +1,7 @@
+openai
+pip
+PyMuPDF
 streamlit
+torch
+transformers
+wheel

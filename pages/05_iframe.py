@@ -23,7 +23,7 @@ site = st.selectbox("불러올 외부 페이지를 선택하세요", [
 if site == "Desmos 계산기":
     src_url = "https://www.desmos.com/scientific?lang=ko"
 elif site == "YouTube 영상":
-    src_url = "https://www.youtube.com/embed/zpOULjyy-n8"
+    src_url = "https://youtu.be/yKNxeF4KMsY?si=qF71ypZ_kG3Xkr9x"
 elif site == "구글 설문지":
     src_url = "https://docs.google.com/forms/d/e/1FAIpQLSdLfZ.../viewform"
 

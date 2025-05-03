@@ -1,6 +1,29 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.set_page_config(page_title="LLM 웹앱 실습", layout="wide")
+
+st.title("LLM 웹앱 실습 포트폴리오")
+st.markdown("""
+이 웹앱은 **Streamlit과 GPT API**를 활용하여  
+고등학생이 직접 나만의 AI 웹앱을 만들어보는 실습 프로젝트입니다.
+
+---
+
+### 실습 흐름
+
+1. **상호작용 앱 만들기**  
+   다양한 입력 도구로 사용자 인터페이스 구성 실습
+
+2. **세션 기억 흐름 설계**  
+   사용자의 입력 흐름과 상태를 기억하는 앱 만들기
+
+3. **GPT API 연동**  
+   챗봇과 문서 요약기 등 LLM 기반 AI 기능 구현
+
+---
+
+### 사용 방법
+왼쪽 **사이드바**에서 원하는 실습 페이지를 선택하세요.
+
+각 페이지는 독립적으로 작동하며, 다양한 예제를 자유롭게 수정해보며 연습할 수 있습니다.
+""")
